@@ -1,7 +1,8 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Figure from 'react-bootstrap/Figure'
-// import '../images/book.png';
+import Image from 'react-bootstrap/Image'
+import Imgs from '../images/book.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Login.css';
 
@@ -11,12 +12,14 @@ export default function Login() {
 
       <Figure>
         <Figure.Image
-          width={171}
-          height={180}
-          alt="171x180"
-          src="../images/book.jpg"
+          width={350}
+          height={550}
+          alt="Book Pile"
+          src={Imgs}
         />
       </Figure>
+
+      <img src={Imgs}/>
 
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Control type="email" placeholder="Email" />

@@ -19,8 +19,6 @@ export default function Login() {
         />
       </Figure>
 
-      <img src={Imgs}/>
-
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Control type="email" placeholder="Email" />
       </Form.Group>

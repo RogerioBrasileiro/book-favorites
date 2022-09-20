@@ -2,7 +2,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Figure from 'react-bootstrap/Figure'
 import Image from 'react-bootstrap/Image'
-import Imgs from '../images/book.jpg';
+import Imgs from '../images/bookLogin.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Login.css';
 
@@ -10,10 +10,10 @@ export default function Login() {
   return (
     <Form className="container col-4 center-screen">
 
-      <Figure>
+      <Figure className='col-6 center-screen'>
         <Figure.Image
-          width={350}
-          height={550}
+          width={250}
+          height={150}
           alt="Book Pile"
           src={Imgs}
         />

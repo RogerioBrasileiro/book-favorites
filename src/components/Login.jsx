@@ -10,10 +10,11 @@ export default function Login() {
   return (
     <Form className="container col-4 center-screen">
 
-      <Figure className='col-6 center-screen'>
+      <Figure className='col-12 d-flex justify-content-center'>
         <Figure.Image
-          width={250}
-          height={150}
+          fluid
+          width={200}
+          height={100}
           alt="Book Pile"
           src={Imgs}
         />

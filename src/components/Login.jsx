@@ -1,7 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Figure from 'react-bootstrap/Figure'
-import Image from 'react-bootstrap/Image'
 import Imgs from '../images/bookLogin.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Login.css';

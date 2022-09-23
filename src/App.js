@@ -9,7 +9,6 @@ export default function App() {
   return (
     <BrowserRouter>
       <Menu />
-      <Login />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />

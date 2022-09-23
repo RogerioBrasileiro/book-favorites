@@ -10,8 +10,8 @@ export default function Menu() {
         <Container>
           <Navbar.Brand href="#home">Navbar</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
+            <Link to='/' className='nav-link'>Home</Link>
+            <Nav><Link to='/login'>Login</Link></Nav>
             <Nav.Link href="#pricing">Pricing</Nav.Link>
           </Nav>
         </Container>

@@ -4,13 +4,11 @@ import Stack from 'react-bootstrap/Stack';
 
 // CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Custom.css'
 
 export default function Cadastro() {
   return (
     <Stack className='col-md-5 mt-5 mx-auto'>
-      <Form className="container col-12">
-
+      <Form className="container col-12 pt-3">
         <Stack direction='horizontal' gap={1}>
           <Form.Group className="mb-3 col-6" controlId="formBasicEmail">
             <Form.Control type="text" placeholder="Nome" />

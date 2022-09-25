@@ -3,7 +3,7 @@ import Form from 'react-bootstrap/Form';
 import Figure from 'react-bootstrap/Figure'
 import Imgs from '../images/bookLogin.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Login.css';
+import './Custom.css';
 
 export default function Login() {
   return (

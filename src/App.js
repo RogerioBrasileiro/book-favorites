@@ -1,8 +1,13 @@
 import './App.css';
-import Home from './components/Home';
-import { BrowserRouter, Routes, Route, Link} from 'react-router-dom';
-import Login from './components/Login';
+
 import Menu from './components/Menu';
+
+// Routes
+import { BrowserRouter, Routes, Route, Link} from 'react-router-dom';
+import Home from './components/Home';
+import Login from './components/Login';
+import Cadastro from './components/Cadastro';
+
 
 export default function App() {
 
@@ -12,7 +17,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
-        <Route path="*" element={<h1>Não tenho essa página</h1>} />
+        <Route path="/cadastro" element={<Cadastro />} />
       </Routes>
     </BrowserRouter>
   );

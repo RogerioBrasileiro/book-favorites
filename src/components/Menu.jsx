@@ -8,12 +8,15 @@ export default function Menu() {
     <>
       <Navbar bg="primary" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+
+          <Navbar.Brand href="/">Navbar</Navbar.Brand>
+          
           <Nav className="me-auto">
             <Link to='/' className='nav-link'>Home</Link>
-            <Nav><Link to='/login'>Login</Link></Nav>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav><Link to='/login' className='nav-link'>Login</Link></Nav>
+            <Nav><Link to='/cadastro' className='nav-link'>Cadastro</Link></Nav>
           </Nav>
+
         </Container>
       </Navbar>
     </>
